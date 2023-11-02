@@ -95,6 +95,6 @@ function updateTimer(){
   }
   timerEl.textContent = `${minutes} : ${seconds}`;
 }
-
+// Start game and reset game button
 cardsEL.forEach(card => card.addEventListener('click', flipCard));
 reset.addEventListener('click',resetGame)
