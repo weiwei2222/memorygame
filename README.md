@@ -16,4 +16,17 @@ There are 16 animal cards. But they are in hidden in front card. When you click 
 
 <h2><a href="https://ps-rtt-sei.herokuapp.com/projects/mod1/#mod-1-the-dom-based-game">Mod 1: The DOM Based Game</a></h2>
 
+# rescours
+
+<p><a href="https://www.pexels.com/">Pexels</a></p>
+<p><a href="https://www.w3schools.com/css/css_grid_container.asp">CSS grid</a></p>
+<p><a href="https://www.w3schools.com/cssref/css3_pr_transform.php">CSS transform 3D</a></p>
+<p><a href="https://www.w3schools.com/cssref/css3_pr_perspective.php">CSS perspective Property</a></p>
+<p><a href="https://www.w3schools.com/js/js_random.asp">JavaScript Random</a></p>
+<p><a href="https://www.w3schools.com/jsref/jsref_foreach.asp">JavaScript Array forEach()</a></p>
+<p><a href="https://www.w3schools.com/jsref/prop_style_order.asp">HTML Dom Style order Property</a></p>
+<p><a href="https://www.w3schools.com/tags/att_global_data.asp">HTML data-* Attributes</a></p>
+<p><a href="https://www.w3schools.com/js/js_timing.asp">Javascript setInterval()</a></p>
+<p><a href="https://www.w3schools.com/jsref/event_onload.asp">onload Event</a></p>
+<p><a href="https://www.w3schools.com/tags/att_onload.asp">HTML onload Attribute</a></p>
 
