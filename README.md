@@ -7,11 +7,11 @@ There are 16 animal cards. But they are in hidden in front card. When you click 
 
 
 # wireframes
-<img src="https://github.com/weiwei2222/mod1/blob/master/MemoryGame/wireframes.png">
+<img src="https://github.com/weiwei2222/memorygame/blob/master/wireframes.png">
 
 
 # flowchart
-<img src="https://github.com/weiwei2222/mod1/blob/master/MemoryGame/flowchart.png">
+<img src="https://github.com/weiwei2222/memorygame/blob/master/flowchart.png">
 
 
 <h2><a href="https://ps-rtt-sei.herokuapp.com/projects/mod1/#mod-1-the-dom-based-game">Mod 1: The DOM Based Game</a></h2>
