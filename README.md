@@ -1,5 +1,5 @@
 <h1>Memory animal card game</h1>
-<p><a href="https://weiwei2222.github.io/memorygame/" target="_blank">live demo</p></p>
+
 
 # Instructions
 
