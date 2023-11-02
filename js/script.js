@@ -14,7 +14,7 @@ let minutes = 0;
 let timer = false;
 let match = 0;
 // when html page onload, call shuffle funtion. shuffle all cards.
-// document.body.onload = shuffle();
+document.body.onload = shuffle();
 // reset the game
 function resetGame(){
   winEl.classList.add('hidden');
