@@ -99,9 +99,11 @@ button {
     font-size: 1rem;
 }
 .win{
-    margin:0px 20px 0px 20px;
-    color: #6f1c24;
-    font-size: 1.5em;
+    width: 480px;
+    height: 540px;
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
 }
 .hidden{
     display: none; 

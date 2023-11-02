@@ -4,7 +4,7 @@ const cardsEL = document.querySelectorAll('.memory-card');
 const movesEl = document.getElementById('moves');
 const timerEl = document.getElementById('timer');
 const reset = document.getElementById('reset');
-const winEl = document.querySelector('.win');
+const winEl = document.querySelector('.win')
 let checkFlip = false;
 let firstCard, secondCard;
 let lockCard = false;
@@ -14,9 +14,11 @@ let minutes = 0;
 let timer = false;
 let match = 0;
 // when html page onload, call shuffle funtion. shuffle all cards.
-document.body.onload = shuffle();
+// document.body.onload = shuffle();
 // reset the game
 function resetGame(){
+  winEl.classList.add('hidden');
+  cardsEL.forEach(card => card.classList.remove('hidden'));
   cardsEL.forEach(card => card.classList.remove('flip'));
   cardsEL.forEach(card => card.addEventListener('click', flipCard));
   match = 0;
@@ -51,20 +53,30 @@ function flipCard() {
   checkFlip = false;
   movesEl.textContent = moves;
   checkMatch();
+  stateGame()
 }
 // check 2 cards match or not, if it is match, 2 cards turn to disablecards, if it isn't match, turn to unflipcards
 // and also check all card wether match. if it is match 8 times,the moves and timer will stop.
 function checkMatch(){
   if (firstCard.dataset.animal === secondCard.dataset.animal){
     match ++;
-    if (match == 8){
-      clearInterval(timer);
-      winEl.classList.remove('hidden');
-    }
     disableCards();
     return;
   }else{
-    unflipCards();}
+    unflipCards();
+  }
+}
+function stateGame(){
+  if (match == 8 && minutes <=1 ){
+    clearInterval(timer);
+    cardsEL.forEach(card => card.classList.add('hidden'));
+    winEl.classList.remove('hidden');
+  }else if(minutes >=1){
+    clearInterval(timer);
+    cardsEL.forEach(card => card.classList.add('hidden'));
+    winEl.classList.remove('hidden');
+    winEl.textContent = 'You lose...';
+  }
 }
 // disable 2 cards
 function disableCards() {
