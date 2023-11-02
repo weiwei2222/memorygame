@@ -9,6 +9,7 @@ body {
     height: 100vh;
     display: flex;
     background: linear-gradient(325deg, #03001e 0%,#1565C0 30%,#af38ca 70%, #dc81c2 100%);
+    font-family: Arial, sans-serif;
 }
 main{
     position: absolute;
@@ -19,8 +20,7 @@ main{
 .board-container {
     position: relative;
 }
-.board,
-.win {
+.board{
     border-radius: 5px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
     background: linear-gradient(135deg,  #03001e 0%,#6d4e9b 0%,#a22e83 50%, #d672ba 100%);
@@ -97,4 +97,12 @@ button {
 .stats{
     float: right;
     font-size: 1rem;
+}
+.win{
+    margin:0px 20px 0px 20px;
+    color: #6f1c24;
+    font-size: 1.5em;
+}
+.hidden{
+    display: none; 
 }

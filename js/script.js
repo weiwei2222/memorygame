@@ -4,6 +4,7 @@ const cardsEL = document.querySelectorAll('.memory-card');
 const movesEl = document.getElementById('moves');
 const timerEl = document.getElementById('timer');
 const reset = document.getElementById('reset');
+const winEl = document.querySelector('.win');
 let checkFlip = false;
 let firstCard, secondCard;
 let lockCard = false;
@@ -58,6 +59,7 @@ function checkMatch(){
     match ++;
     if (match == 8){
       clearInterval(timer);
+      winEl.classList.remove('hidden');
     }
     disableCards();
     return;
